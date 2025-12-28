@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TeamManagement.API",
+    "\\TeamManagement.Core",
+    "\\TeamManagement.Domain",
+    "\\TeamManagement.Infrastructure"
+  ],
+  "SelectedNode": "\\TeamManagement.API",
+  "PreviewInSolutionExplorer": false
+}
