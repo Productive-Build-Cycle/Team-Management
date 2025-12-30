@@ -1,8 +1,8 @@
-﻿using System;
+﻿using system;
+using Application.Abstractions.CQRS;
 
-public class Class1
-{
-	public Class1()
-	{
-	}
-}
+namespace Application.Commands.AddMember;
+public sealed record AddMemberCommand(
+    Guid TeamId,
+    Guid MemberId,
+    ) : ICommand;

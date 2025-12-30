@@ -1,8 +1,10 @@
-﻿using System;
 
-public class Class1
+namespace Application.commands.ChangeTeamStatus
 {
-	public Class1()
-	{
-	}
+    public sealed record ChangeTeamStatusCommand
+    (
+        Guid TeamId,
+        bool IsActive,
+        ChangeTeamStatus NewStatus
+    ) : ICommand;
 }
