@@ -1,11 +1,12 @@
-﻿using System;
+﻿namespace Application.Exception;
 
-public class Class1
+public sealed class forbiddenException:Exception
 {
-	public Class1()
-	{
-	}
-}
+    public forbiddenException(string message):base(message)
+    {
 
+    }
+
+}
 
 

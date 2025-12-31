@@ -1,8 +1,9 @@
-﻿using System;
+﻿namespace Application.Exception;
 
-public class Class1
+public sealed class NotFoundExeption : Exception
 {
-	public Class1()
-	{
-	}
+    public NotFoundExeption(string entityName,object key):base ($"{entityName}with identifier '{key}' was not found.")
+    {
+
+    }
 }

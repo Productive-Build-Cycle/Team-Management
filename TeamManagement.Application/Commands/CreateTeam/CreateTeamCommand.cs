@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Application.Abstractions.CQRS;
 
-public class Class1
+namespace Application.Commands.CreateTeam
+
 {
-	public Class1()
-	{
-	}
+    public sealed record CreateTeamCommand(
+    string Name
+) : ICommand;
+
 }
+

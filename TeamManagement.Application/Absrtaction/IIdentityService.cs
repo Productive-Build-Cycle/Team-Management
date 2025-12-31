@@ -1,7 +1,7 @@
 ﻿using System;
-using Application.Abstraction;
+using Application.Abstractions;
 
-namespace Application.Abstraction
+namespace Application.Abstractions;
 
 public interface IIdentityService
 {

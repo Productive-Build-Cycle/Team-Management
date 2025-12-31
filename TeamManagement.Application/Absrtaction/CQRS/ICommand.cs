@@ -1,9 +1,14 @@
 ﻿using System;
 using Application.Abstractions.CQRS;
 
-
-public interface ICommand
+namespace Application.Abstractions.CQRS
 {
+    public interface ICommand
+    {
+
+    }
+
+
 
 }
 

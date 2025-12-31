@@ -6,3 +6,4 @@ public sealed record AddMemberCommand(
     Guid TeamId,
     Guid MemberId,
     ) : ICommand;
+    

@@ -1,8 +1,9 @@
-﻿using System;
+﻿namespace Application.Exceptions;
 
-public class Class1
+public sealed class TeamNameAlreadyExistsException : Exception
 {
-	public Class1()
-	{
-	}
+    public TeamNameAlreadyExistsException(string teamName)
+        : base($"A team with name '{teamName}' already exists.")
+    {
+    }
 }

@@ -1,4 +1,4 @@
-
+﻿
 namespace Application.commands.ChangeTeamStatus
 {
     public sealed record ChangeTeamStatusCommand

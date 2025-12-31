@@ -1,8 +1,15 @@
 ﻿using System;
+using Application.Abstrations.CQRS;
 
-public class Class1
+namespace Application.Command.AssignLeader
 {
-	public Class1()
-	{
-	}
+    public sealed record AssignLeaderCommand
+    (
+    Guid TeamId,
+    Guid LeadrId
+
+    ) : ICommand;
+
+
 }
+

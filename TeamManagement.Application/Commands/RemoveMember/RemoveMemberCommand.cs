@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Application.Abstractions.CQRS;
 
-public class Class1
-{
-	public Class1()
-	{
-	}
-}
+namespace Application.Commands.RemoveMember;
+
+
+
+
+public sealed record RemoveMemberCommand(
+    Guid TeamId,
+    Guid MemberId
+) : ICommand;
