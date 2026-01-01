@@ -3,68 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\ITeamRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Absrtaction\\ITeamRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Exception\\NotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Aggregates\\Team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Domain\\Aggregates\\Team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Exception\\ForbiddenException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\DTOs\\TeamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\DTOs\\TeamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Exception\\ForbiddenException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Core\\Enum\\TeamStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Core\\Enum\\TeamStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Common\\AggregateRoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Domain\\Common\\AggregateRoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Entities\\TeamMember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Domain\\Entities\\TeamMember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamManagement.Application\\Exception\\NotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,93 +79,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TeamNameAlreadyExistsException.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Exception\\TeamNameAlreadyExistsException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "ITeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\ITeamRepository.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Application\\Absrtaction\\ITeamRepository.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\ITeamRepository.cs",
+              "RelativeToolTip": "TeamManagement.Application\\Absrtaction\\ITeamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T17:40:48.929Z",
+              "WhenOpened": "2026-01-01T06:27:47.768Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Exception\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Exception\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T17:35:48.554Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForbiddenException.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Exception\\ForbiddenException.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Exception\\ForbiddenException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T17:30:17.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RemoveMemberCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommandHandler.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T12:20:17.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateTeamCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:30:26.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TeamDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\DTOs\\TeamDTO.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\DTOs\\TeamDTO.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\DTOs\\TeamDTO.cs",
-              "RelativeToolTip": "TeamManagement.Application\\DTOs\\TeamDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T17:01:39.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangeTeamStatusCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommandHandler.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T10:45:32.861Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -173,111 +103,198 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssignLeaderCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Aggregates\\Team.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Domain\\Aggregates\\Team.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Aggregates\\Team.cs",
+              "RelativeToolTip": "TeamManagement.Domain\\Aggregates\\Team.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:41:20.774Z"
+              "WhenOpened": "2025-12-30T20:39:58.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutboxFailureException.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Exceptions\\OutboxFailureException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:21:20.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnexpectedInfrastructureException.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Exceptions\\UnexpectedInfrastructureException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:21:23.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfrastructureException.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Exceptions\\InfrastructureException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:21:16.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:21:09.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeamManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\TeamManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-31T21:21:07.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RemoveMemberCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\RemoveMember\\RemoveMemberCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "TeamManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Persistence\\DbContext\\TeamManagementDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:33:36.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssignLeaderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\AssignLeader\\AssignLeaderCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:34:29.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddMemberCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:09:40.632Z"
+              "WhenOpened": "2025-12-31T21:21:02.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ChangeTeamStatusCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\ChangeTeamStatus\\ChangeTeamStatusCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "TeamMemberConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs",
+              "RelativeToolTip": "TeamManagement.Infrastructure\\Persistence\\Configurations\\TeamMemberConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T10:38:09.943Z"
+              "WhenOpened": "2025-12-31T21:20:59.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "AddMemberCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs",
               "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs",
               "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs",
               "RelativeToolTip": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommandHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:20:18.135Z"
+              "WhenOpened": "2025-12-30T19:51:49.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddMemberCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
+              "RelativeToolTip": "TeamManagement.Application\\Commands\\AddMember\\AddMemberCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:51:50.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Core\\Enum\\TeamStatus.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Core\\Enum\\TeamStatus.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Core\\Enum\\TeamStatus.cs",
+              "RelativeToolTip": "TeamManagement.Core\\Enum\\TeamStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T20:26:47.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ICommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Absrtaction\\CQRS\\ICommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Common\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Domain\\Common\\AggregateRoot.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Common\\AggregateRoot.cs",
+              "RelativeToolTip": "TeamManagement.Domain\\Common\\AggregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:37:15.245Z"
+              "WhenOpened": "2025-12-30T20:39:37.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateTeamCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Commands\\CreateTeam\\CreateTeamCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Application\\Exception\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\ForbiddenException.cs",
+              "RelativeToolTip": "TeamManagement.Application\\Exception\\ForbiddenException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:30:53.19Z"
+              "WhenOpened": "2025-12-30T19:51:43.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ICommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs",
-              "RelativeDocumentMoniker": "TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs",
-              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs",
-              "RelativeToolTip": "TeamManagement.Application\\Absrtaction\\CQRS\\ICommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "TeamMember.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Entities\\TeamMember.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Domain\\Entities\\TeamMember.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Domain\\Entities\\TeamMember.cs",
+              "RelativeToolTip": "TeamManagement.Domain\\Entities\\TeamMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T17:49:49.464Z"
+              "WhenOpened": "2025-12-30T20:39:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "TeamManagement.Application\\Exception\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Hosein\\source\\repos\\Productive-Build-Cycle\\Team-Management\\TeamManagement.Application\\Exception\\NotFoundException.cs",
+              "RelativeToolTip": "TeamManagement.Application\\Exception\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:51:41.452Z",
+              "EditorCaption": ""
             }
           ]
         }
