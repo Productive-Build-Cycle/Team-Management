@@ -1,38 +1,32 @@
-﻿using Application.Abstractions;
-using Application.Abstractions.CQRS;
-using Application.Exceptions;
+﻿using TeamManagement.Application.Abstraction;
+using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Application.Exceptions;
+using TeamManagement.Core.Enum;
 
-namespace Application.Commands.ChangeTeamStatus:
+namespace TeamManagement.Application.Commands.ChangeTeamStatus;
 
-public sealed class ChangeTeamStatusCommandHandler:ICommandHandler<ChangeTeamStatusCommand>
+public sealed class ChangeTeamStatusCommandHandler : ICommandHandler<ChangeTeamStatusCommand>
 {
     private readonly ITeamRepository _teamRepository;
-    private readonly IIdentityService _identityService;
 
-    public ChangeTeamStatusCommandHandler(
-        ITeamRepository teamRepository,
-        IIdentityService identityService)
+    public ChangeTeamStatusCommandHandler(ITeamRepository teamRepository)
     {
         _teamRepository = teamRepository;
-        _identityService = identityService;
     }
 
-    public async Task HandleAsync(
-        ChangeTeamStatusCommand command,
-        CancellationToken cancellationToken)
+    public async Task HandleAsync(ChangeTeamStatusCommand command, CancellationToken cancellationToken)
     {
-        if (!_identityService.IsAuthenticated)
-            throw new UnauthorizedAccessException();
-
-        var team = await _teamRepository.GetByIdAsync(
-            command.TeamId,
-            cancellationToken);
+        var team = await _teamRepository.GetByIdAsync(command.TeamId, cancellationToken);
 
         if (team is null)
-            throw new TeamNotFoundException(command.TeamId);
+            throw new NotFoundException();
 
-        team.ChangeStatus(command.NewStatus);
+        if (command.NewStatus == TeamStatus.Active)
+            team.Activate();
+        else
+            team.Archive();
 
-        await _teamRepository.AddAsync(team, cancellationToken);
+        // TODO
+        await _teamRepository.SaveChangeAsync(cancellationToken);
     }
 }
