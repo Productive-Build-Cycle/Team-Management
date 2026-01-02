@@ -1,31 +1,24 @@
-﻿using Application.Abstrations;
-using Application.Abstractions.CQRS;
-using Application.Exceptions;
+﻿using TeamManagement.Application.Abstraction;
+using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Application.Exceptions;
 
-namespace Application.Cmmands.AddMember;
+namespace TeamManagement.Application.Commands.AddMember;
 
-
-public sealed class AddMemberCommandHandler:ICommandHandler<AddMemberCommand>
+public sealed class AddMemberCommandHandler : ICommandHandler<AddMemberCommand>
 {
     private readonly ITeamRepository _teamRepository;
-    private readonly IIdentityService _IdentityService;
-    public AddMemberCommandHandler(ITeamRepository teamRepository,IIdentityService identityService)
+    public AddMemberCommandHandler(ITeamRepository teamRepository)
     {
         _teamRepository = teamRepository;
-        _IdentityService = identityService;
     }
-    public async Task HandleAsync(
-        AddMemberCommand command,CancellationToken cancellationToken
-        )
-    {
-        if (!_IdentityService.IsAuthenticated) 
-        throw new UnauthorizedAccessExceotion();
-        var team= await _teamRepository.GetByIdAsync(command.TeamId,cancellationToken);
-        if (team is null)
-            throw new TeamNotFoundException(command.TeamId);
-        team.AddMemeber(command.MemeberId);
-        await _teamRepository.AddAsync(team,cancellationToken);
 
+    public async Task HandleAsync(AddMemberCommand command, CancellationToken cancellationToken)
+    {
+        var team = await _teamRepository.GetByIdAsync(command.TeamId, cancellationToken);
+        if (team is null)
+            throw new NotFoundException();
+        team.AddMember(command.UserId);
+        // TODO
+        await _teamRepository.SaveChangeAsync(cancellationToken);
     }
 }
-

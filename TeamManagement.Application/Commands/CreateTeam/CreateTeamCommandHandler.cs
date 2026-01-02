@@ -1,43 +1,32 @@
-﻿using Application.Abstractions;
-using Application.Abstractions.CQRS;
-using Application.Exceptions;
+﻿using TeamManagement.Application.Abstraction;
+using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Application.Exceptions;
+using TeamManagement.Domain.Aggregates;
+using TeamManagement.Domain.ValueObjects;
 
-namespace Application.Commands.CreateTeam;
+namespace TeamManagement.Application.Commands.CreateTeam;
 
 public sealed class CreateTeamCommandHandler : ICommandHandler<CreateTeamCommand>
 {
     private readonly ITeamRepository _teamRepository;
-    private readonly IIdentityService _identityService;
 
-    public CreateTeamCommandHandler(
-        ITeamRepository teamRepository,
-        IIdentityService identityService)
+    public CreateTeamCommandHandler(ITeamRepository teamRepository)
     {
         _teamRepository = teamRepository;
-        _identityService = identityService;
     }
 
-    public async Task HandleAsync(
-        CreateTeamCommand command,
-        CancellationToken cancellationToken)
+    public async Task HandleAsync(CreateTeamCommand command, CancellationToken cancellationToken)
     {
-        if (!_identityService.IsAuthenticated)
-            throw new UnauthorizedAccessException();
 
-        var exists = await _teamRepository.ExistsByNameAsync(
-            command.Name,
-            cancellationToken);
+        var exists = await _teamRepository.ExistsByNameAsync(command.Name, cancellationToken);
 
         if (exists)
             throw new TeamNameAlreadyExistsException(command.Name);
 
-        var ownerId = _identityService.UserId;
+        var newTeamId = TeamId.Create(Guid.NewGuid());
+        var newTeam = new Team(newTeamId, command.Name);
 
-        var team = Team.Create(
-            command.Name,
-            ownerId
-        );
-
-        await _teamRepository.AddAsync(team, cancellationToken);
+        await _teamRepository.AddAsync(newTeam, cancellationToken);
+        await _teamRepository.SaveChangeAsync(cancellationToken);
     }
 }

@@ -1,12 +1,12 @@
-﻿using System;
-using Application.Abstrations.CQRS;
+﻿using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Domain.ValueObjects;
 
-namespace Application.Command.AssignLeader
+namespace TeamManagement.Application.Commands.AssignLeader
 {
     public sealed record AssignLeaderCommand
     (
     Guid TeamId,
-    Guid LeadrId
+    UserId UserId
 
     ) : ICommand;
 
