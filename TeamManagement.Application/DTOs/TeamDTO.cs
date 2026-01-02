@@ -1,4 +1,6 @@
-﻿namespace Application.DTOs
+﻿using TeamManagement.Core.Enum;
+
+namespace Application.DTOs
 {
 
     public sealed class TeamDto
