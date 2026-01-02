@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11218.70 d18.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Application", "TeamManagement.Application\TeamManagement.Application.csproj", "{AE6BCD84-7893-43BD-A31D-164437A423B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Domain", "TeamManagement.Domain\TeamManagement.Domain.csproj", "{C1A65799-0E4F-4967-B4DC-E32C3201A4C4}"
@@ -36,5 +39,11 @@ Global
 		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10C7681F-9BF3-4333-979B-6035D2286AC4}
 	EndGlobalSection
 EndGlobal
