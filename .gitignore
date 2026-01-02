@@ -1,12 +1,12 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# .NET build outputs
+**/bin/
+**/obj/
 
-/.vs/Team-Management.slnx/FileContentIndex
-/.vs/slnx.sqlite
-/.vs/VSWorkspaceState.json
-obj/
-bin/
-*.AssemblyInfo.cs
-*.AssemblyAttributes.cs
+# Rider / Visual Studio
+.idea/
 .vs/
+
+# User-specific files
+*.user
+*.suo
+*.cache
