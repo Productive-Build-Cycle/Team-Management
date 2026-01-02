@@ -2,7 +2,6 @@
 
 namespace Application.DTOs
 {
-
     public sealed class TeamDto
     {
         public Guid Id { get; init; }
@@ -13,9 +12,4 @@ namespace Application.DTOs
         public IReadOnlyCollection<Guid> MemberIds { get; init; } = [];
         public DateTime CreatedAt { get; init; }
     }
-
-
 }
-
-
-

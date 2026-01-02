@@ -1,9 +1,9 @@
-﻿using system;
-using Application.Abstractions.CQRS;
+﻿using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Domain.ValueObjects;
 
-namespace Application.Commands.AddMember;
+namespace TeamManagement.Application.Commands.AddMember;
+
 public sealed record AddMemberCommand(
     Guid TeamId,
-    Guid MemberId,
-    ) : ICommand;
-    
+    UserId UserId
+) : ICommand;

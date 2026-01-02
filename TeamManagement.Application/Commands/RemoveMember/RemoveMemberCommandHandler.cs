@@ -1,39 +1,28 @@
-﻿using Application.Abstractions;
-using Application.Abstractions.CQRS;
-using Application.Exceptions;
+﻿using TeamManagement.Application.Abstraction;
+using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Application.Exceptions;
 
-namespace Application.Commands.RemoveMember;
+namespace TeamManagement.Application.Commands.RemoveMember;
 
-public sealed class RemoveMemberCommandHandler
-    : ICommandHandler<RemoveMemberCommand>
+public sealed class RemoveMemberCommandHandler : ICommandHandler<RemoveMemberCommand>
 {
     private readonly ITeamRepository _teamRepository;
-    private readonly IIdentityService _identityService;
 
-    public RemoveMemberCommandHandler(
-        ITeamRepository teamRepository,
-        IIdentityService identityService)
+    public RemoveMemberCommandHandler(ITeamRepository teamRepository)
     {
         _teamRepository = teamRepository;
-        _identityService = identityService;
     }
 
-    public async Task HandleAsync(
-        RemoveMemberCommand command,
-        CancellationToken cancellationToken)
+    public async Task HandleAsync(RemoveMemberCommand command, CancellationToken cancellationToken)
     {
-        if (!_identityService.IsAuthenticated)
-            throw new UnauthorizedAccessException();
-
-        var team = await _teamRepository.GetByIdAsync(
-            command.TeamId,
-            cancellationToken);
+        var team = await _teamRepository.GetByIdAsync(command.TeamId, cancellationToken);
 
         if (team is null)
-            throw new TeamNotFoundException(command.TeamId);
+            throw new NotFoundException();
 
-        team.RemoveMember(command.MemberId);
+        team.RemoveMember(command.UserId);
 
-        await _teamRepository.AddAsync(team, cancellationToken);
+        // TODO
+        await _teamRepository.SaveChangeAsync(cancellationToken);
     }
 }
