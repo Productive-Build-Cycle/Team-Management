@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamManagement.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb900e21dfb8df183f019b243a5475e7803bd01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257cb27d9a9bd4b6d27dd30b4c023d3ac3fe43ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamManagement.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamManagement.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
