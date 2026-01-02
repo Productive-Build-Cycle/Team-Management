@@ -2,8 +2,10 @@
 
 public class UnexpectedInfrastructureException : InfrastructureException
 {
-    public UnexpectedInfrastructureException(string message = "") : base(
-        $"An unexpected infrastructure error occurred. {message}")
+    public UnexpectedInfrastructureException(string message) : base(message)
+    {
+    }
+    public UnexpectedInfrastructureException(string message, Exception innerException) : base(message, innerException)
     {
     }
 }

@@ -5,6 +5,21 @@
 /.vs/Team-Management.slnx/FileContentIndex
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Auto-generated assembly info
+**/*.AssemblyInfo.cs
+**/*.AssemblyAttributes.cs
+
+# IDE
+.vs/
+.idea/
+
 obj/
 bin/
 *.AssemblyInfo.cs
