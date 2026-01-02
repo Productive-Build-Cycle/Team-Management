@@ -23,11 +23,11 @@ public sealed class TeamRepository : ITeamRepository
         }
         catch (DbUpdateException ex)
         {
-            throw new DatabaseConnectionException();
+            throw new DatabaseConnectionException("Failed to add Team entity to database.", ex);
         }
         catch (Exception ex)
         {
-            throw new UnexpectedInfrastructureException("Unexpected error while adding Team.");
+            throw new UnexpectedInfrastructureException("Unexpected error while adding Team.", ex);
         }
     }
 
@@ -41,7 +41,7 @@ public sealed class TeamRepository : ITeamRepository
         }
         catch (Exception ex)
         {
-            throw new UnexpectedInfrastructureException("Unexpected error while loading Team by id.");
+            throw new UnexpectedInfrastructureException("Unexpected error while loading Team by id.", ex);
         }
     }
 
@@ -55,7 +55,7 @@ public sealed class TeamRepository : ITeamRepository
         }
         catch (Exception ex)
         {
-            throw new UnexpectedInfrastructureException("Unexpected error while loading Team by name.");
+            throw new UnexpectedInfrastructureException("Unexpected error while loading Team by name.", ex);
         }
     }
 
@@ -67,7 +67,7 @@ public sealed class TeamRepository : ITeamRepository
         }
         catch (Exception ex)
         {
-            throw new UnexpectedInfrastructureException("Unexpected error while checking Team existence by name.");
+            throw new UnexpectedInfrastructureException("Unexpected error while checking Team existence by name.", ex);
         }
     }
 
@@ -79,11 +79,11 @@ public sealed class TeamRepository : ITeamRepository
         }
         catch (DbUpdateException ex)
         {
-            throw new DatabaseConnectionException();
+            throw new DatabaseConnectionException("Failed to persist changes to database.", ex);
         }
         catch (Exception ex)
         {
-            throw new UnexpectedInfrastructureException("unexpected error while saving changes.");
+            throw new UnexpectedInfrastructureException("Unexpected error while saving changes.", ex);
         }
     }
 }
