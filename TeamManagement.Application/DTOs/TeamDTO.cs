@@ -1,6 +1,7 @@
-﻿namespace Application.DTOs
-{
+﻿using TeamManagement.Core.Enum;
 
+namespace Application.DTOs
+{
     public sealed class TeamDto
     {
         public Guid Id { get; init; }
@@ -11,9 +12,4 @@
         public IReadOnlyCollection<Guid> MemberIds { get; init; } = [];
         public DateTime CreatedAt { get; init; }
     }
-
-
 }
-
-
-
