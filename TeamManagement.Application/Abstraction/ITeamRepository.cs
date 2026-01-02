@@ -1,13 +1,12 @@
-﻿using System;
+﻿using TeamManagement.Domain.Aggregates;
 
-namespace Application.Abstractions;
+namespace TeamManagement.Application.Abstraction;
 
 public interface ITeamRepository
 {
-    task AddAsync(Team team, CancellationToken cancellationToken);
-        Task<Team?> GetByIdAsync(Guid teamId, CancellationToken cancellationToken);
+    Task AddAsync(Team team, CancellationToken cancellationToken);
+    Task<Team?> GetByIdAsync(Guid teamId, CancellationToken cancellationToken);
     Task<Team?> GetByNameAsync(string name, CancellationToken cancellationToken);
     Task<bool> ExistsByNameAsync(string name, CancellationToken cancellationToken);
     Task SaveChangeAsync(CancellationToken cancellationToken);
 }
-
