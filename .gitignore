@@ -10,3 +10,12 @@ bin/
 *.AssemblyInfo.cs
 *.AssemblyAttributes.cs
 .vs/
+/.vs/TeamManagement/FileContentIndex/ceb47fb1-1f78-49d8-8c91-4c9aadc9704c.vsidx
+/.vs/TeamManagement/FileContentIndex/e6cf556c-8728-4669-82e1-2f5949f93f73.vsidx
+/.vs/TeamManagement/v18/.suo
+/.vs/TeamManagement/v18/DocumentLayout.backup.json
+/.vs/TeamManagement/v18/DocumentLayout.json
+/TeamManagement.API/obj/Debug/net10.0/TeamManagement.API.AssemblyInfo.cs
+/TeamManagement.Core/obj/Debug/net10.0/TeamManagement.Core.AssemblyInfo.cs
+/TeamManagement.Domain/obj/Debug/net10.0/TeamManagement.Domain.AssemblyInfo.cs
+/TeamManagement.Infrastructure/obj/Debug/net10.0/TeamManagement.Infrastructure.AssemblyInfo.cs
