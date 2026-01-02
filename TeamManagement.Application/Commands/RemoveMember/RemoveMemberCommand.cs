@@ -1,11 +1,9 @@
-﻿using Application.Abstractions.CQRS;
+﻿using TeamManagement.Application.Abstraction.CQRS;
+using TeamManagement.Domain.ValueObjects;
 
-namespace Application.Commands.RemoveMember;
-
-
-
+namespace TeamManagement.Application.Commands.RemoveMember;
 
 public sealed record RemoveMemberCommand(
     Guid TeamId,
-    Guid MemberId
+    UserId UserId
 ) : ICommand;
