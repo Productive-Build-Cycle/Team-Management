@@ -37,3 +37,5 @@ bin/
 /TeamManagement.Application/obj/Debug/net10.0/TeamManagement.Application.AssemblyInfo.cs
 /TeamManagement.Application/obj/Debug/net10.0/TeamManagement.Application.AssemblyInfoInputs.cache
 /TeamManagement.Application/obj/Debug/net10.0/TeamManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/TeamManagement.Application/obj/Release/net10.0/TeamManagement.Application.AssemblyInfoInputs.cache
+/TeamManagement.Application/obj/Release/net10.0/TeamManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
