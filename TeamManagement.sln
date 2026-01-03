@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11218.70 d18.3
+VisualStudioVersion = 18.3.11218.70
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Application", "TeamManagement.Application\TeamManagement.Application.csproj", "{AE6BCD84-7893-43BD-A31D-164437A423B7}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Core", "TeamManagement.Core\TeamManagement.Core.csproj", "{F1029346-E9E9-43D0-9EE9-80A248D9EB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.API", "TeamManagement.API\TeamManagement.API.csproj", "{E409DDFA-9925-48C5-A026-A47AFA85CA6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.Rest", "Endpoint.Rest\Endpoint.Rest.csproj", "{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Test", "TeamManagement.Test\TeamManagement.Test.csproj", "{872E0A72-03BB-40BB-8EF7-10EB37471498}"
 EndProject
@@ -37,14 +37,10 @@ Global
 		{F1029346-E9E9-43D0-9EE9-80A248D9EB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1029346-E9E9-43D0-9EE9-80A248D9EB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1029346-E9E9-43D0-9EE9-80A248D9EB2D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E409DDFA-9925-48C5-A026-A47AFA85CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{872E0A72-03BB-40BB-8EF7-10EB37471498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{872E0A72-03BB-40BB-8EF7-10EB37471498}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{872E0A72-03BB-40BB-8EF7-10EB37471498}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{872E0A72-03BB-40BB-8EF7-10EB37471498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
