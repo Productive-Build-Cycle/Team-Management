@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Core", "Team
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.Rest", "Endpoint.Rest\Endpoint.Rest.csproj", "{C6CDC8CB-E932-47A6-A9F5-1AE683BEE727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamManagement.Test", "TeamManagement.Test\TeamManagement.Test.csproj", "{872E0A72-03BB-40BB-8EF7-10EB37471498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
