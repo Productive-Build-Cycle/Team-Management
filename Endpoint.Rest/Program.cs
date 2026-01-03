@@ -1,6 +1,10 @@
 using Application.Commands.AssignLeader;
 
+using Endpoint.Rest;
+
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 using TeamManagement.Application.Abstraction;
 using TeamManagement.Application.Abstraction.CQRS;
@@ -34,7 +38,7 @@ builder.Services.AddScoped<ITeamFacade, TeamFacade>();
 
 
 var app = builder.Build();
-
+app.ConfigureCustomExceptionMiddleware();
 app.MapOpenApi();
 app.UseSwaggerUI(options =>
 {
