@@ -2,6 +2,7 @@
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 using TeamManagement.Application.Abstraction;
 using TeamManagement.Application.Commands.AddMember;
@@ -9,6 +10,7 @@ using TeamManagement.Application.Commands.AssignLeader;
 using TeamManagement.Application.Commands.ChangeTeamStatus;
 using TeamManagement.Application.Commands.CreateTeam;
 using TeamManagement.Application.Commands.RemoveMember;
+using TeamManagement.Domain.ValueObjects;
 
 namespace Endpoint.Rest.Controllers
 {
@@ -17,10 +19,12 @@ namespace Endpoint.Rest.Controllers
     public class TeamController : ControllerBase
     {
         private readonly ITeamFacade _teamFacade;
+        private readonly ProblemDetailsFactory _problemDetailsFactory;
 
-        public TeamController(ITeamFacade teamFacade)
+        public TeamController(ITeamFacade teamFacade, ProblemDetailsFactory problemDetailsFactory)
         {
             _teamFacade = teamFacade;
+            _problemDetailsFactory = problemDetailsFactory;
         }
 
         [HttpPost]
@@ -30,9 +34,11 @@ namespace Endpoint.Rest.Controllers
                 request.Name
             );
 
-            await _teamFacade.CreateTeamAsync(command, cancellationToken);
+            var result = await _teamFacade.CreateTeamAsync(command, cancellationToken);
+            if (!result.IsSuccess)
+                return this.ToProblemDetails(result);
 
-            return Created();
+            return Created($"/teams/{result.ReturnValue}", new {id = result.ReturnValue });
         }
 
         [HttpPost("{id:guid}/members")]

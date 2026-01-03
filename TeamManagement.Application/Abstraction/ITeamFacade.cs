@@ -7,6 +7,7 @@ using TeamManagement.Application.Commands.AssignLeader;
 using TeamManagement.Application.Commands.ChangeTeamStatus;
 using TeamManagement.Application.Commands.CreateTeam;
 using TeamManagement.Application.Commands.RemoveMember;
+using TeamManagement.Application.OperationResult;
 using TeamManagement.Core.Enum;
 using TeamManagement.Domain.ValueObjects;
 
@@ -14,7 +15,7 @@ namespace TeamManagement.Application.Abstraction
 {
     public interface ITeamFacade
     {
-        Task CreateTeamAsync(CreateTeamCommand command, CancellationToken cancellationToken);
+        Task<Result<TeamId>> CreateTeamAsync(CreateTeamCommand command, CancellationToken cancellationToken);
         Task AddMemberAsync(AddMemberCommand command, CancellationToken cancellationToken);
         Task RemoveMemberAsync(RemoveMemberCommand command, CancellationToken cancellationToken);
         Task AssignLeaderAsync(AssignLeaderCommand command, CancellationToken cancellationToken);

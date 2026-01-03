@@ -14,6 +14,7 @@ using TeamManagement.Application.Commands.ChangeTeamStatus;
 using TeamManagement.Application.Commands.CreateTeam;
 using TeamManagement.Application.Commands.RemoveMember;
 using TeamManagement.Application.Facade;
+using TeamManagement.Domain.ValueObjects;
 using TeamManagement.Infrastructure.Persistence.DbContext;
 using TeamManagement.Infrastructure.Repositories;
 
@@ -26,7 +27,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<ITeamRepository, TeamRepository>();
-builder.Services.AddScoped<ICommandHandler<CreateTeamCommand>, CreateTeamCommandHandler>();
+builder.Services.AddScoped<ICommandHandler<CreateTeamCommand, TeamId>, CreateTeamCommandHandler>();
 builder.Services.AddScoped<ICommandHandler<AddMemberCommand>, AddMemberCommandHandler>();
 builder.Services.AddScoped<ICommandHandler<AssignLeaderCommand>, AssignLeaderCommandHandler>();
 builder.Services.AddScoped<ICommandHandler<ChangeTeamStatusCommand>, ChangeTeamStatusCommandHandler>();

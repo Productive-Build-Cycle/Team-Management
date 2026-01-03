@@ -71,11 +71,11 @@ public sealed class TeamRepository : ITeamRepository
         }
     }
 
-    public async Task SaveChangeAsync(CancellationToken cancellationToken)
+    public async Task<int> SaveChangeAsync(CancellationToken cancellationToken)
     {
         try
         {
-            await _dbContext.SaveChangesAsync(cancellationToken);
+            return await _dbContext.SaveChangesAsync(cancellationToken);
         }
         catch (DbUpdateException ex)
         {
