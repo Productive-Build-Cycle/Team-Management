@@ -14,7 +14,7 @@ public class Team : AggregateRoot
     public string Name { get; private set; }
     public TeamStatus Status { get; private set; }
     public IReadOnlyCollection<TeamMember> Members => _members.AsReadOnly();
-    public TeamLeader Leader { get; private set; }
+    public TeamLeader? Leader { get; private set; }
     public DateTimeOffset CreatedAt { get; private set; }
 
     protected Team()
