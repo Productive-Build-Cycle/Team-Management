@@ -23,6 +23,8 @@ public class Team : AggregateRoot
 
     public Team(TeamId id, string name)
     {
+        if (string.IsNullOrEmpty(name.Trim()))
+            throw new ArgumentException("Team name cannot be null or empty.", nameof(name));
         Id = id;
         Name = name;
         Status = TeamStatus.Active;
@@ -57,7 +59,7 @@ public class Team : AggregateRoot
     public void AssignLeader(UserId userId)
     {
         ThrowIfArchived(nameof(AssignLeader));
-        
+
         var member = _members.FirstOrDefault(m => m.UserId == userId);
         if (member is null)
             throw new LeaderMustBeMemberException(nameof(userId));
@@ -67,10 +69,14 @@ public class Team : AggregateRoot
 
         Leader = TeamLeader.Create(userId);
     }
-    
-    public void Archive() => Status =  TeamStatus.Archived;
-    
-    public void Activate()  => Status = TeamStatus.Active;
+
+    public void Archive()
+    {
+        ThrowIfArchived(nameof(Archive));
+        Status = TeamStatus.Archived;
+    }
+
+    public void Activate() => Status = TeamStatus.Active;
 
     public bool IsArchived => Status == TeamStatus.Archived;
 
